@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite  name="Default suite" parallel="tests">
+  
+  <test verbose="2" name=" test1">
+    <classes>
+      <class name="scripts.Scenario61TestngExample2"/>
+      
+    </classes>
+  </test> <!-- Default test -->
+  
+  <test verbose="2" name=" test2">
+    <classes>
+      <class name="scripts.Scenario62TestngExample3"/>
+      
+    </classes>
+  </test> <!-- Default test -->
+  
+  
+</suite> <!-- Default suite -->
